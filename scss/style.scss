@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@import 'base/variables';
+@import 'base/checkbox';
+
+*{
+    margin: 0;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@import 'blocks/title';
+
+@import 'blocks/header';
+@import 'blocks/home';
+@import 'blocks/project';
+@import 'blocks/slider';
+@import 'blocks/control';
+@import 'blocks/logo';
+@import 'blocks/input';
+@import 'blocks/repair';
+@import 'blocks/fantasies';
+@import 'blocks/clients';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+
+
+
+@import 'blocks/media';

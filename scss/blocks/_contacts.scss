@@ -1,0 +1,175 @@
+.contacts{
+    margin-top: 470px;
+    height: 954px;
+    background: url('../img/backgroundContact.jpg') no-repeat;
+    background-size: cover;
+    &__overlay{
+        position: relative;
+        height: 100%;
+        background:  rgba(24, 24, 24, 0.9);
+        
+    }
+    &__question{
+        position: absolute;
+        width: 883px;
+        height: 445px;
+        background-color: $sixth-color;
+        top: -223px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    &__title{
+        margin: 0 auto;
+        margin-top: 34px;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $second-color;
+    }
+    &__form{
+        margin: 0 auto;
+        margin-top: 46px;
+        width: 517px;
+        display: grid;
+        grid-template-columns: repeat(2, 231px);
+        grid-template-rows: auto;
+        column-gap: 58px;
+    }
+    &__input{
+        position: relative;
+        label{
+            position: absolute;
+            left: 0;
+            top: -23px;
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 21px;
+            color: rgba(255, 255, 255, 0.5);
+
+        }
+        input{
+            width: 100%;
+            outline: none;
+            background-color: $sixth-color;
+            border: none;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 23px;
+            padding-bottom: 4px;
+            &::placeholder{
+                font-family: Nunito Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 23px;
+                color: $second-color;
+            }
+        }
+    }
+    &__textarea{
+        position: relative;
+        margin-top: 48px;
+        grid-column: 1 / 3;
+        label{
+            position: absolute;
+            left: 0;
+            top: -23px;
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 21px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        textarea{
+            resize: none;
+            width: 100%;
+            height: 24px;
+            outline: none;
+            background-color: $sixth-color;
+            border: none;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 23px;
+            padding-bottom: 2px;
+            &::placeholder{
+                font-family: Nunito Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 23px;
+                color: $second-color;
+            }
+        }
+    }
+    &__policy{
+        grid-column: 1 / 3;
+        margin: 0 auto; 
+        margin-top: 48px;
+        label{
+            .text{
+                color: $second-color;
+            }
+        }
+    }
+    &__btn{
+        grid-column: 1 / 3;
+        margin: 0 auto; 
+        margin-top: 50px;
+        width: 213px;
+        height: 51px;
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+        border: none;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 21px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $second-color;
+    }
+    &__title-adress{
+        padding-top: 274px;
+        margin: 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        color: $main-color;
+    }
+    &__map{
+        width: 924px;
+        height: 465px;
+        margin: 0 auto;
+        margin-top: 45px;
+        iframe{
+            width: 100%;
+        }
+    }
+    &__link{
+        margin-top: 26px;
+        text-align: center;
+        a{
+            width: 28px;
+            height: 28px;
+            border-radius: 100%;
+            &:last-child{
+                margin-left: 15px;
+            }
+        }
+    }
+    
+}

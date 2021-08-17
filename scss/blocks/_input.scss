@@ -1,0 +1,21 @@
+.input{
+    input{
+        font-size:14px;
+        font-family: Nunito Sans;
+        font-size: 14px;
+        line-height: 23px;
+        border: none;
+        color: $third-color;
+        border-bottom:  1px solid rgba(54, 54, 54, 0.3);
+        outline: none; 
+    }
+    label{
+        font-family: Nunito Sans;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(54, 54, 54, 0.5);
+        &:last-child{
+            padding-left: 3px;
+        }
+    }
+}

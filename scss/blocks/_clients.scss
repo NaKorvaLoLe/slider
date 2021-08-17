@@ -1,0 +1,91 @@
+.clients{
+    margin-top: 110px;
+    &__title{
+        text-align: center;
+        text-transform: uppercase;
+        color: $third-color;
+    }
+    &__text{
+        margin-top: 29px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        color: $third-color;
+    }
+    &__reviews{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 39px;
+        width: 1236px;
+        display: grid;
+        grid-template: repeat(1, minmax(428px, auto))/repeat(3, 376px);
+        gap: 54px;
+    }
+    &__feedback-wrapper{
+        display: flex;
+    }
+    &__feedback{
+        position: relative;
+        padding: 13px 32px 90px 20px;
+    }
+    &__name{
+        padding-top: 16px;
+        padding-left: 16px;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+        color: $third-color;
+    }
+    &__review-text{
+        margin-top: 12px;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        color: $fifth-color;
+    }
+    &__photo{
+        border-radius: 100%;
+    }
+    &__house{
+        margin-top: 62px;
+        position: absolute;
+        width: 294px;
+        height: 54px;
+        background: $main-color;
+        display: flex; 
+    }
+    &__square{
+        width: 135px;
+        border-right: 1px solid #fff;
+        display: flex;
+        img{
+            display: block;
+            height: 32px;
+            width: 32px;
+            margin: 11px 15px auto 17px;
+        }
+        p{
+            margin: auto 0;
+            text-transform: uppercase;
+            color: $second-color;
+        }
+    }
+    &__days{
+        display: flex;
+        img{
+            display: block;
+            height: 32px;
+            width: 32px;
+            margin: 11px 15px auto 17px;
+        }
+        p{
+            margin: auto 0;
+            text-transform: uppercase;
+            color: $second-color;
+        }  
+    }
+}

@@ -1,0 +1,43 @@
+.home{
+    background: url('../img/home.jpg') center 50%/cover no-repeat;
+    height: 906px;
+    &__wrapper{
+        padding-top: 194px;
+        padding-left: 134px;
+    }
+    &__title{
+        color: $second-color;
+        span{
+            color: $main-color;
+        }
+    }
+    &__text{
+        margin-top: 19px;
+        color: $second-color;
+    }
+    &__buttons{
+        margin-top: 41px;
+    }
+    &__button{
+        margin-right: 20px;
+        width: 201px;
+        height: 51px;
+        outline: none; 
+        background: transparent;
+        border: 1px solid $second-color;
+        box-sizing: border-box;
+        border-radius: 2px;
+        font-family: Nunito Sans;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        color: $second-color;
+        transition: background 0.5s;
+        cursor: pointer;
+        &:hover{
+            background: $main-color;
+        }
+    }
+}

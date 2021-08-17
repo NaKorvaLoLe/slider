@@ -1,0 +1,53 @@
+.title{
+    font-style: normal;
+    font-weight: normal;
+    font-family: Yeseva One;
+    text-transform: uppercase;
+    &__fz40{
+        font-size: 40px;
+        line-height: 53px;
+    }
+    &__fz27{
+        font-size: 27px;
+        line-height: 37px;
+    }
+    &__fz20{
+        font-size: 20px;
+        line-height: 28px; 
+    }
+    &__fz18{
+        font-size: 18px;
+        line-height: 25px; 
+    }
+    &__fz17{
+        font-size: 17px;
+        line-height: 24px;
+    }
+    &__fz14{
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+.text{
+    font-style: normal;
+    font-weight: normal;
+    font-family: Nunito Sans;
+    &__fz22{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    &__fz18{
+        font-size: 18px;
+        line-height: 37px;
+    }
+    
+    &__fz14{
+        font-size: 14px;
+        line-height: 27px;
+    }
+    &__fz13{
+        font-size: 13px;
+        line-height: 21px;  
+    }
+}

@@ -1,0 +1,94 @@
+.project{
+    height: 1074px;
+    background: $third-color;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 80px;
+    }
+    &__completed{
+        padding-top: 176px;
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: repeat(2, 172px);
+        grid-row: auto;
+        gap: 34px 29px;
+        &__wrapper{
+            margin-top: 42px;
+        }
+    }
+    &__content-mobile__wrapper{
+        display: none;
+    }
+    &__title{
+        color: $main-color;
+    }
+    &__text{
+        margin-top: 34px;
+        color: $second-color;
+    }
+    &__subtitle{
+        color: $main-color;
+    }
+    &__subtitle-text{
+        color: $second-color;
+    }
+
+    &__arrows{
+        margin-top: 81px;
+        width: 164px;
+        display: flex;
+        justify-content: space-between;
+        &__arrow-left{
+            cursor: pointer;
+            display: block;
+        }
+        &__arrow-right{
+            cursor: pointer;
+            display: block;
+        }
+        &__point-slider{
+            cursor: pointer;
+            background-color: $fourth-color;
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+            margin: 0 2px;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            &-active{
+                background-color: $second-color;
+            }
+        }
+    }
+    &__slider-arrow{
+        display: none;
+    }
+    &__slider{
+        margin-top: 107px;
+        width: 682px;
+    }
+    &__tabs{
+        padding: 0;
+        display: flex;
+        list-style-type: none;     
+    }
+    &__tab{
+        cursor: pointer;
+        margin-right: 60px;
+        text-transform: uppercase;
+        color: $fourth-color;
+    }
+    &__tab_active{
+        padding-bottom: 6.6px;
+        border-bottom: 1px solid $main-color;
+        color: $main-color;
+    }
+    &__img-slide{
+        margin-top: 45px;
+    }
+    &__img{
+        display: block;
+    }
+}
